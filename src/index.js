@@ -1,3 +1,4 @@
-module.exports = function reverse (n) {
-  
+function reversedNumber (numbers) {
+    return parseInt(numbers.toString().split("").reverse().join(""));
 }
+reversedNumber();
